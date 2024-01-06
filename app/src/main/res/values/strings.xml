@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">book</string>
+    <string name="bookLibrary">مكتبتى</string>
+    <string name="mylibrary">My library</string>
+    <string name="text_item">item text</string>
+    <string name="read">Read</string>
+
+    <string name="Description">Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="welcome_to_my_library">welcome </string>
+    <string name="register">register</string>
+    <string name="if_you_don_t_have_account_click_on_register">if you dont have account click on register</string>
+    <string name="your_data_profile">your data profile</string>
+    <string name="your_name">your name</string>
+    <string name="your_password">your password</string>
+    <string name="profile">profile</string>
+    <string name="register_now">register Now</string>
+    <string name="registeration">Registeration</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="your_mail">your_mail</string>
+    <string name="account">Account</string>
+    <string name="log_out">log out</string>
+    <string name="click_here_to_log_out">click here to log out</string>
+</resources>

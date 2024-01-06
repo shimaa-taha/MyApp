@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:clickable="false"
+    android:layoutDirection="ltr"
+    android:focusable="false"
+    tools:context=".ProfileFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center|top"
+        android:layout_marginVertical="50dp"
+        android:text="@string/account"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <TextView
+
+        android:id="@+id/yourname"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:hint="@string/your_name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/yourpassword"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+
+        android:hint="@string/your_password"
+
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:id="@+id/yourmail"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="@string/your_mail"
+
+        android:inputType="text"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/click_here_to_log_out"-->
+<!--        android:textSize="24sp"-->
+<!--        android:padding="20dp"-->
+
+<!--        android:textColor="@color/black"-->
+<!--        />-->
+       <ImageView
+        android:id="@+id/logout"
+         android:src="@drawable/logout_24"
+
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_height="70dp"
+        android:text="log out"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="10sp"
+        />
+</LinearLayout>
+</LinearLayout>
